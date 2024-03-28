@@ -16,7 +16,8 @@ body{
 }
 
 #home{
-    background-image: url("./img/banner.png") ;
+    background-image: url("./img/hero.png") ;
+    background-color: #E9A2B0;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +26,7 @@ body{
 .navbar {
     background-color: #fff;
     box-shadow: 0 1px 3px #E9A2B0, 0 1px 2px #E9A2B0;
-  }
+}
   
   
   /* .navbar-nav {
@@ -54,9 +55,44 @@ body{
     border-radius: 5px;
   }
    */
+
+#badge1{
+  background-color: #D7D7D7;
+  font-size: 16px; 
+  font-weight: bold;
+  color: #b35667;
+  margin: auto;
+} 
+
 #badge2{
   background-color: #E9A2B0; 
-  font-size: 30px; 
-  font-weight: bold
+  font-size: 30px;
+  font-weight: bold;
 }
 
+.section-consul {
+  background-image: url("./img/cta.png");
+  background-position: top;
+  width: auto;
+  height: 400px;
+  background-size:cover;
+}
+
+/* .section-consultation h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-consultation p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.section-consultation .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.section-consultation img {
+  max-width: 100%;
+} */

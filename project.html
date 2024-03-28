@@ -75,12 +75,12 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fas fa-bars"></i>
                 </a>
-                <ul class="dropdown-menu dropdown-menu-start">
+                <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item" href="#">MY CART</a></li>
                   <li><a class="dropdown-item" href="#">CHAT HISTORY</a></li>
                   <li><a class="dropdown-item" href="#">WISHLIST</a></li>
                   <li><div class="dropdown-divider"></div></li>
-                  <li><a class="dropdown-item" href="#">LOG OUT</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: #FF0000;">LOG OUT</a></li>
                 </ul>
               </li>
             </ul>
@@ -100,36 +100,24 @@
       <section id="portfolio" class="bg-light">
         <div class="container pb-5">
           <div class="text-center pt-5 pb-5">
-            <h2 class="display-flex pt-5 ">Explore Your Beauty</h2>
-            <span class="badge" style="background-color: #E9A2B0;">Find the latest articles, live consultation, buy quality cosmetics, all in one place at Nawasena!</span>
+            <h2 class="display-flex pt-5 text-uppercase">Explore Your Beauty</h2>
+            <span class="badge rounded-pill" id="badge1">Find the latest articles, live consultation, buy quality cosmetics, all in one place at Nawasena!</span>
           </div>
 
           <div class="row">
             <div class="col-lg-4 mb-4">
-              <div class="card">
-                <img src="./img/photo-1.jpg" class="card-img-top p-3" alt="climbing">
-                <div class="card-body">
-                  <p class="card-text">Project to create a mobile application for renting mountain equipment from Kotlin</p>
-                  <a href="https://github.com/MFakhriMusyaffa/gea_rent_mobile_app" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
+              <div class="card-transparant">
+                <a href="#article"><img src="./img/category1.png" class="card-img-top p-3" alt="article"></a>
               </div>
             </div>
             <div class="col-lg-4 mb-4">
-              <div class="card">
-                <img src="./img/photo-2.jpg" class="card-img-top p-3" alt="event organizer">
-                <div class="card-body">
-                  <p class="card-text">Project to create a website-based event organizer from codeigniter 3</p>
-                  <a href="https://github.com/MFakhriMusyaffa/projects-eventio" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
+              <div class="card-transparant">
+                <a href="#consultation"><img src="./img/category2.png" class="card-img-top p-3" alt="consultation"></a>
               </div>
             </div>
             <div class="col-lg-4 mb-4">
-              <div class="card">
-                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
-                <div class="card-body">
-                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
-                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
+              <div class="card-transparant">
+                <a href="#store"><img src="./img/category3.png" class="card-img-top p-3" alt="store"></a>
               </div>
             </div>
           </div>
@@ -138,11 +126,11 @@
       <section id="portfolio" class="bg-light">
         <div class="container pb-5">
           <div class="text-center pt-5 pb-5">
-            <span class="badge" id="badge2">Discover Your Beauty Bliss</span>
+            <span class="badge rounded-pill text-dark" id="badge2">Discover Your Beauty Bliss</span>
           </div>
 
           <div class="row">
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
               <div class="card">
                 <img src="./img/photo-1.jpg" class="card-img-top p-3" alt="climbing">
                 <div class="card-body">
@@ -151,7 +139,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
               <div class="card">
                 <img src="./img/photo-2.jpg" class="card-img-top p-3" alt="event organizer">
                 <div class="card-body">
@@ -160,7 +148,16 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
+              <div class="card">
+                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
+                <div class="card-body">
+                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
+                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-4">
               <div class="card">
                 <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
                 <div class="card-body">
@@ -172,11 +169,18 @@
           </div>
       </section>
       
-      <section id="cta">
-        <div class="container-fluid">
-            <div class="row">
-                <img src="./img/banner.png" alt="banner">
+      <section class="section-consul m-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 p-3">
+              
             </div>
+            <div class="col-lg-6 pt-5">
+              <h2>ONLINE CONSULTATION</h2>
+              <p>DISCOVER PERSONALIZED BEAUTY ADVICE ONLINE! BOOK YOUR CONSULTATION NOW FOR TAILORED SKINCARE AND MAKEUP TIPS</p>
+              <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+          </div>
         </div>
       </section>
 

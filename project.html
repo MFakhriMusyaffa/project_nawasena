@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#home">Nawasena</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,140 @@
             </ul>
           </div>
         </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#home">Nawasena</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Tautan di bagian tengah -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text-uppercase ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#article">Article</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chat">Chat</a>
+              </li>
+            </ul>
+
+            
+
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#search"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bars"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-start">
+                  <li><a class="dropdown-item" href="#">MY CART</a></li>
+                  <li><a class="dropdown-item" href="#">CHAT HISTORY</a></li>
+                  <li><a class="dropdown-item" href="#">WISHLIST</a></li>
+                  <li><div class="dropdown-divider"></div></li>
+                  <li><a class="dropdown-item" href="#">LOG OUT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
       </nav>
 
       <section id="home">
         <div class="container">
+            <div class="row">
+                <img src="./img/banner.png" alt="banner">
+            </div>
+        </div>
+      </section>
+      
+      <section id="portfolio" class="bg-light">
+        <div class="container pb-5">
+          <div class="text-center pt-5 pb-5">
+            <h2 class="display-flex pt-5 ">Explore Your Beauty</h2>
+            <span class="badge" style="background-color: #E9A2B0;">Find the latest articles, live consultation, buy quality cosmetics, all in one place at Nawasena!</span>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-1.jpg" class="card-img-top p-3" alt="climbing">
+                <div class="card-body">
+                  <p class="card-text">Project to create a mobile application for renting mountain equipment from Kotlin</p>
+                  <a href="https://github.com/MFakhriMusyaffa/gea_rent_mobile_app" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-2.jpg" class="card-img-top p-3" alt="event organizer">
+                <div class="card-body">
+                  <p class="card-text">Project to create a website-based event organizer from codeigniter 3</p>
+                  <a href="https://github.com/MFakhriMusyaffa/projects-eventio" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
+                <div class="card-body">
+                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
+                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="portfolio" class="bg-light">
+        <div class="container pb-5">
+          <div class="text-center pt-5 pb-5">
+            <span class="badge" id="badge2">Discover Your Beauty Bliss</span>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-1.jpg" class="card-img-top p-3" alt="climbing">
+                <div class="card-body">
+                  <p class="card-text">Project to create a mobile application for renting mountain equipment from Kotlin</p>
+                  <a href="https://github.com/MFakhriMusyaffa/gea_rent_mobile_app" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-2.jpg" class="card-img-top p-3" alt="event organizer">
+                <div class="card-body">
+                  <p class="card-text">Project to create a website-based event organizer from codeigniter 3</p>
+                  <a href="https://github.com/MFakhriMusyaffa/projects-eventio" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
+                <div class="card-body">
+                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
+                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      
+      <section id="cta">
+        <div class="container-fluid">
             <div class="row">
                 <img src="./img/banner.png" alt="banner">
             </div>

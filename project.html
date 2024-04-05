@@ -1,189 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Nawasena|7B</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Nawasena|Cosmetic</title>
 
-    <!-- CSS -->
-    <link href="./style.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <!-- Icon Fontawesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- icon-website -->
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link href="./style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- Icon Fontawesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
-        <div class="container">
-          <a class="navbar-brand fw-bold" href="#home">Nawasena</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-            <ul class="navbar-nav text-uppercase">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home"><img src="./img/logo-nav.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Tautan di bagian tengah -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav text-uppercase ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home" style="color: #b35667; font-weight: bold;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./list_product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./list_article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./list_consult.html">Chat</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 12 12">
+                <path fill="currentColor"
+                  d="M5 1a4 4 0 1 0 2.248 7.31l2.472 2.47a.75.75 0 1 0 1.06-1.06L8.31 7.248A4 4 0 0 0 5 1M2.5 5a2.5 2.5 0 1 1 5 0a2.5 2.5 0 0 1-5 0" />
+              </svg></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle-transparant" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5 -7 24 24">
+                <path fill="currentColor"
+                  d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2m7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2M1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end text-end">
+              <li><a class="dropdown-item" href="#">PROFILE</a></li>
+              <li><a class="dropdown-item" href="#">MY CART</a></li>
+              <li><a class="dropdown-item" href="#">CHAT HISTORY</a></li>
+              <li><a class="dropdown-item" href="#">WISHLIST</a></li>
+              <li>
+                <div class="dropdown-divider"></div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#product">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#article">Article</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#chat">Chat</a>
-              </li>
+              <li><a class="dropdown-item" href="./login_page.html" style="color: #FF0000;">LOG OUT</a></li>
             </ul>
-          </div>
-        </div>
-      </nav> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <img src="./img/banner.png" alt="banner">
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="bg-light">
+    <div class="container pt-8 pb-16">
+      <div class="text-center pt-5 pb-5">
+        <h2 class="display-flex pt-5 text-uppercase fw-bold">Explore Your Beauty</h2>
+        <span class="badge rounded-pill" id="badge1">Find the latest articles, live consultation, buy quality cosmetics,
+          all in one place at Nawasena!</span>
+      </div>
+
+      <div class="row">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="#home">Nawasena</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Tautan di bagian tengah -->
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav text-uppercase ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#product">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#article">Article</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#chat">Chat</a>
-              </li>
-            </ul>
-
-            
-
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-1">
-                <a class="nav-link" href="#search"><i class="fas fa-search"></i></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fas fa-bars"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="#">MY CART</a></li>
-                  <li><a class="dropdown-item" href="#">CHAT HISTORY</a></li>
-                  <li><a class="dropdown-item" href="#">WISHLIST</a></li>
-                  <li><div class="dropdown-divider"></div></li>
-                  <li><a class="dropdown-item" href="#" style="color: #FF0000;">LOG OUT</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          
+          <!-- <div class="grid-container flex gap-2 justify-center">
+                <div class="box relative">
+                  <figure>
+                    <img src="img/category11.png" alt="Image 1">
+                    <figcaption class="absolute inset-0 top-32 ml-4 text-pink-200 font-semibold text-4xl">ARTICLE</figcaption>
+                  </figure>
+                </div>
+                <div class="box relative">
+                  <figure>
+                    <img src="img/category12.png" alt="Image 1">
+                    <figcaption class="absolute inset-0 top-32 ml-4 text-pink-200  font-semibold text-4xl">CONSULTATION</figcaption>
+                  </figure>
+                </div>
+                <div class="box relative">
+                  <figure>
+                    <img src="img/category13.png" alt="Image 1">
+                    <figcaption class="absolute inset-0 top-32 ml-4 text-pink-200 font-semibold text-4xl">STORE</figcaption>
+                  </figure>
+                </div>
+              </div>           -->
         </div>
-      </nav>
-
-      <section id="home">
-        <div class="container">
-            <div class="row">
-                <img src="./img/banner.png" alt="banner">
-            </div>
-        </div>
-      </section>
-      
-      <section id="portfolio" class="bg-light">
-        <div class="container pb-5">
-          <div class="text-center pt-5 pb-5">
-            <h2 class="display-flex pt-5 text-uppercase">Explore Your Beauty</h2>
-            <span class="badge rounded-pill" id="badge1">Find the latest articles, live consultation, buy quality cosmetics, all in one place at Nawasena!</span>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 mb-4">
-              <div class="card-transparant">
-                <a href="#article"><img src="./img/category1.png" class="card-img-top p-3" alt="article"></a>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-              <div class="card-transparant">
-                <a href="#consultation"><img src="./img/category2.png" class="card-img-top p-3" alt="consultation"></a>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-              <div class="card-transparant">
-                <a href="#store"><img src="./img/category3.png" class="card-img-top p-3" alt="store"></a>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section id="portfolio" class="bg-light">
-        <div class="container pb-5">
-          <div class="text-center pt-5 pb-5">
-            <span class="badge rounded-pill text-dark" id="badge2">Discover Your Beauty Bliss</span>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3 mb-4">
-              <div class="card">
-                <img src="./img/photo-1.jpg" class="card-img-top p-3" alt="climbing">
-                <div class="card-body">
-                  <p class="card-text">Project to create a mobile application for renting mountain equipment from Kotlin</p>
-                  <a href="https://github.com/MFakhriMusyaffa/gea_rent_mobile_app" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 mb-4">
-              <div class="card">
-                <img src="./img/photo-2.jpg" class="card-img-top p-3" alt="event organizer">
-                <div class="card-body">
-                  <p class="card-text">Project to create a website-based event organizer from codeigniter 3</p>
-                  <a href="https://github.com/MFakhriMusyaffa/projects-eventio" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 mb-4">
-              <div class="card">
-                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
-                <div class="card-body">
-                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
-                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 mb-4">
-              <div class="card">
-                <img src="./img/photo-3.jpg" class="card-img-top p-3" alt="job seeker">
-                <div class="card-body">
-                  <p class="card-text">The project creates a mobile-based job search from Kotlin</p>
-                  <a href="https://github.com/lazkerz/aplikasisafe" class="btn btn-dark d-grid gap-2 col-6 mx-auto">More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-      
-      <section class="section-consul m-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 p-3">
-              
-            </div>
-            <div class="col-lg-6 pt-5">
-              <h2>ONLINE CONSULTATION</h2>
-              <p>DISCOVER PERSONALIZED BEAUTY ADVICE ONLINE! BOOK YOUR CONSULTATION NOW FOR TAILORED SKINCARE AND MAKEUP TIPS</p>
-              <a href="#" class="btn btn-primary">BOOK NOW</a>
+        <div class="col-lg-4 mb-4">
+          <div class="card text-bg-dark" id="card-rounded">
+            <img src="img/category11.png" class="card-img" alt="article">
+            <div class="card-img-overlay">
+              <h5 class="card-title pt-5 mt-16 fw-bold" style="color:#FFD8E6; font-size: 30px;">ARTICLE</h5>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-lg-4 mb-4">
+          <div class="card text-bg-dark" id="card-rounded">
+            <img src="img/category12.png" class="card-img" alt="consultation">
+            <div class="card-img-overlay">
+              <h5 class="card-title pt-5 mt-16 fw-bold" style="color:#FFD8E6; font-size: 30px;">CONSULTATION</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card text-bg-dark" id="card-rounded">
+            <img src="img/category13.png" class="card-img" alt="store">
+            <div class="card-img-overlay">
+              <h5 class="card-title pt-5 mt-16 fw-bold" style="color:#FFD8E6; font-size: 30px;">STORE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <section id="portfolio" class="bg-light">
+    <div class="container pt-8 pb-16">
+      <div class="text-center pt-5 pb-5">
+        <span class="badge rounded-pill text-uppercase text-dark" id="badge2">Discover Your Beauty Bliss</span>
+      </div>
+
+      <div class="row">
+        <!-- <div class="grid grid-cols-4 gap-3">
+              <div class="max-w-sm rounded-xl flex flex-col overflow-hidden shadow-md">
+                <img class="w-full" src="/img/product-1.png" alt="product-1">
+                <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Dior Addict Lip Tint</div>
+                  <p class="text-gray-700 text-base">Hydrating no-transfer lip ...
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">LIP TINT</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+              </div>
+              <div class="max-w-sm rounded-xl flex flex-col overflow-hidden shadow-md">
+                <img class="w-full" src="/img/product-1.png" alt="product-1">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Dior Addict Lip Tint</div>
+                  <p class="text-gray-700 text-base">Hydrating no-transfer lip ...
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">LIP TINT</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+              </div>
+              <div class="max-w-sm rounded-xl flex flex-col overflow-hidden shadow-md">
+                <img class="w-full" src="/img/product-1.png" alt="product-1">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Dior Addict Lip Tint</div>
+                  <p class="text-gray-700 text-base">Hydrating no-transfer lip ...
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">LIP TINT</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+              </div>
+              <div class="max-w-sm rounded-xl flex flex-col overflow-hidden shadow-md">
+                <img class="w-full" src="/img/product-1.png" alt="product-1">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Dior Addict Lip Tint</div>
+                  <p class="text-gray-700 text-base">Hydrating no-transfer lip ...
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">LIP TINT</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+              </div> -->
+
+        <div class="col-lg-3 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./img/product-1.png" alt="product-1">
+            <div class="card-head">
+              <h5 class="text-bold">Dior Addict Lip Tint</h5>
+            </div>
+            <div class="card-body">
+              <div class="tag-category pb-2">
+                <span class="badge rounded-pill" id="badge1">LIP TINT</span>
+                <span class="badge rounded-pill" id="badge1">LIPS</span>
+              </div>
+              <p class="card-text">Hydrating no-transfer lip ...</p>
+              <h5>IDR 635.000,00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./img/product-2.png" alt="product-2">
+            <div class="card-head">
+              <h5 class="text-bold">SUPERGOOP! PLAY ...</h5>
+            </div>
+            <div class="card-body">
+              <div class="tag-category pb-2">
+                <span class="badge rounded-pill" id="badge1">LOTION</span>
+                <span class="badge rounded-pill" id="badge1">SUNSCREEN</span>
+              </div>
+              <p class="card-text">A fast-absorbing, non-greas....</p>
+              <h5>IDR 1.289.000,00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./img/product-3.png" alt="product-2">
+            <div class="card-head">
+              <h5 class="text-bold">DIOR ADDICT REFILL...</h5>
+            </div>
+            <div class="card-body">
+              <div class="tag-category pb-2">
+                <span class="badge rounded-pill" id="badge1">LIPSTICK</span>
+                <span class="badge rounded-pill" id="badge1">LIPS</span>
+              </div>
+              <p class="card-text">Dior Addict is Dior's glossy ...</p>
+              <h5>IDR 715.000,00</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./img/product-4.png" alt="product-2">
+            <div class="card-head">
+              <h5 class="text-bold">ETUDE SEBUM SOAK ...</h5>
+            </div>
+            <div class="card-body">
+              <div class="tag-category pb-2">
+                <span class="badge rounded-pill" id="badge1">POWDER</span>
+                <span class="badge rounded-pill" id="badge1">FACE</span>
+              </div>
+              <p class="card-text">Clear powder makes skin m...</p>
+              <h5>IDR 137.000,00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-consul m-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 pt-2">
+          <img src="./img/cta2.png" alt="cta">
+        </div>
+        <div class="col-lg-6 pt-5 text-white d-flex align-items-center">
+          <div class="text-left">
+            <h2>ONLINE CONSULTATION</h2>
+            <p>DISCOVER PERSONALIZED BEAUTY ADVICE ONLINE! BOOK YOUR CONSULTATION NOW FOR TAILORED SKINCARE AND MAKEUP
+              TIPS</p>
+            <a href="./list_consult.html" class="btn" style="color: #b35667; background-color:#FFECF2 ;">BOOK NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="chat" class="bg-light">
+    <div class="container pt-8 pb-16">
+      <div class="text-center pt-5 pb-5">
+        <span class="badge rounded-pill text-uppercase text-dark" id="badge2">Beauty Masters: Expert Insights</span>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="card text-bg-dark" id="card-rounded2">
+            <img src="./img/doctor1.png" class="card-img" alt="doctor1">
+            <div class="card-img-overlay">
+              <p class="card-title mt-80 text-center" style="background-color: #FFD8E6; background-size:cover;">
+                <b>dr. Handita Sp.D.V.E </b><br>STR : 247587257547
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-bg-dark" id="card-rounded2">
+            <img src="./img/doctor2.png" class="card-img" alt="doctor2">
+            <div class="card-img-overlay">
+              <p class="card-title mt-80 text-center" style="background-color: #FFD8E6; background-size:cover;">
+                <b>dr. ADIT Sp.D.V.E </b><br>STR : 247587257547
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-bg-dark" id="card-rounded2">
+            <img src="./img/doctor3.png" class="card-img" alt="doctor3">
+            <div class="card-img-overlay">
+              <p class="card-title mt-80 text-center" style="background-color: #FFD8E6; background-size:cover;">
+                <b>dr. cokro Sp.D.V.E</b><br>STR : 247587257547
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card text-bg-dark" id="card-rounded2">
+            <img src="./img/doctor4.png" class="card-img" alt="doctor4">
+            <div class="card-img-overlay">
+              <p class="card-title mt-80 text-center" style="background-color: #FFD8E6; background-size:cover;">
+                <b>dr. Eva Sarasvati </b><br>STR : 247587257547
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="article" class="bg-light">
+    <div class="container pt-8 pb-16">
+      <div class="text-center pt-5 pb-5">
+        <span class="badge rounded-pill text-uppercase text-dark" id="badge2">Explore 100+ Fresh Articles</span>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 mb-4 ">
+          <div class="card mb-3" style="min-width: 1100px;" id="card-rounded">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/article-1.png" class="img-fluid rounded-start p-3" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Beware of fake products! Watch out for fake products, and take a peek at
+                    the surefire way to choose cosmetics that are safe for your skin.</h5>
+                  <p class="card-text">Choosing cosmetic products that are safe for your skin type is not easy.
+                    The reason is, currently there are many illegal and fake cosmetics circulating that harm your skin.
+                    So, how do you choose cosmetic products that suit your skin type? Find out through the following
+                    review!</p>
+                  <div class="card-text mt-28">
+                    <a class="btn fw-bold" href="#" role="button" style="color: #000; background-color:#FFD8E6 ;">VIEW
+                      MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="card mb-3" style="min-width: 1100px;" id="card-rounded">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/article-2.png" class="img-fluid rounded-start p-3" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Reasons Why It's Important to Pay Attention to Cosmetic Expiry Dates</h5>
+                  <p class="card-text">The expiration date of cosmetics is often overlooked. In fact, using cosmetics
+                    that are past their expiration date can cause skin problems, even though the cosmetics still look
+                    suitable for use. Therefore, do not use cosmetic products that have passed their expiration date,
+                    especially products used on the eyes, because they can cause harm to the sensitive eye area.
+                  </p>
+                  <div class="card-text mt-24">
+                    <a class="btn fw-bold" href="#" role="button" style="color: #000; background-color:#FFD8E6 ;">VIEW
+                      MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="card mb-3" style="min-width: 1100px;" id="card-rounded">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/article-3.png" class="img-fluid rounded-start p-3" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Review: BB Cushion Hybrid with Skincare and Cosmetic Benefitsk</h5>
+                  <p class="card-text">BB cushion is still a popular product because it provides practicality.
+                    The hassle of using foundation is now as simple as using compact powder in general. Apart from
+                    practicality,
+                    BB cushion is also suitable for newbies or those who feel they are not very good at makeup. Just
+                    follow the instructions,
+                    the BB cushion will provide its own magic touch.</p>
+                  <div class="card-text mt-24">
+                    <a class="btn fw-bold" href="#" role="button" style="color: #000; background-color:#FFD8E6 ;">VIEW
+                      MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #E9A2B0;">
+    <!-- Section: Links  -->
+    <section class="footer">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 mx-auto mb-4 pt-16 border-end">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <img src="./img/logo.png" alt="logo">
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 mx-auto mb-4 border-end">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Site Map
+            </h6>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">Consultation</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">Store</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">Article</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">About Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset" style="text-decoration: none;">Privacy & Policy</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mx-auto mb-md-0 mb-4 pt-12">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-center">Contact</h6>
+            <div class="d-flex justify-content-center">
+              <i class="fab fa-instagram me-3 fs-5"></i>
+              <i class="fab fa-facebook me-3 fs-5"></i>
+              <i class="fab fa-x-twitter me-3 fs-5"></i>
+              <i class="fas fa-envelope me-3 fs-5"></i>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4 fw-bold border-top">
+      COPYRIGHT © 2024 Nawasena. Made with ❤️ by Nawasena Team
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

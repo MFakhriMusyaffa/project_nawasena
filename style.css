@@ -1,22 +1,16 @@
+/* Homepage */
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* .banner{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),;
-    background-size: cover;
-    background-position: center;
-} */
 
 #main-nav{
     background-color: #E9A2B0;
 }
 
 #home{
-    background-image: url("./img/hero.png") ;
+    background-image: url("./img/hero.png");
     background-color: #E9A2B0;
     background-position: top;
     background-repeat: no-repeat;
@@ -27,72 +21,120 @@ body{
     background-color: #fff;
     box-shadow: 0 1px 3px #E9A2B0, 0 1px 2px #E9A2B0;
 }
-  
-  
-  /* .navbar-nav {
-    margin-top: 0;
-  }
-  
-  .navbar-nav .nav-item {
-    margin-right: 10px;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #000;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #333;
-  } */
-
-  /* .cosmetics {
-    background-color: #f8f9fa;
-  }
-  
-  .beauty-bliss {
-    border-radius: 5px;
-  }
-   */
 
 #badge1{
-  background-color: #D7D7D7;
-  font-size: 16px; 
+  background-color: #e1e1e1;
+  font-size: 20px; 
   font-weight: bold;
   color: #b35667;
   margin: auto;
 } 
 
 #badge2{
-  background-color: #E9A2B0; 
+  background-color: #FFD8E6; 
   font-size: 30px;
   font-weight: bold;
 }
 
 .section-consul {
-  background-image: url("./img/cta.png");
+  background-color: #BD939A;
   background-position: top;
-  width: auto;
-  height: 400px;
+  background-repeat: no-repeat;
   background-size:cover;
 }
 
-/* .section-consultation h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+/* Atur lebar container */
+.container {
+  max-width: 960px;
 }
 
-.section-consultation p {
-  font-size: 16px;
-  margin-bottom: 30px;
+/* Atur margin atas dan bawah */
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.section-consultation .btn {
-  font-size: 16px;
-  padding: 10px 20px;
+/* Atur gaya judul */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.section-consultation img {
+/* Atur gaya gambar */
+.img-container {
+  text-align: center;
+}
+
+.img-thumbnail {
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 4px;
   max-width: 100%;
-} */
+}
+
+/* Atur gaya deskripsi */
+.description {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Atur gaya daftar dokter */
+.list-doctor {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-doctor li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.list-doctor li:last-child {
+  border-bottom: none;
+}
+
+/* Atur gaya nama dokter */
+.doctor-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Atur gaya STR */
+.doctor-str {
+  font-size: 14px;
+  color: #999;
+}
+
+#card-rounded{
+  border-radius: 24px;
+}
+
+#card-rounded2{
+  border-radius: 48px;
+}
+
+
+
+.footer {
+  background-color: #E9A2B0;
+  padding: 20px 0;
+  font-style: bold;
+}
+
+/* login page */
+
+/* .bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+  .h-custom-2 {
+  height: 100%;
+  }
+  } */

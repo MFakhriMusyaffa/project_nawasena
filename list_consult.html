@@ -16,6 +16,8 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!-- CSS -->
     <link href="./style.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Font -->
@@ -71,7 +73,7 @@
                         <ul class="dropdown-menu dropdown-menu-end text-end">
                             <li><a class="dropdown-item" href="#">PROFILE</a></li>
                             <li><a class="dropdown-item" href="#">MY CART</a></li>
-                            <li><a class="dropdown-item" href="#">CHAT HISTORY</a></li>
+                            <li><a class="dropdown-item" href="./chat_consult.html">CHAT HISTORY</a></li>
                             <li><a class="dropdown-item" href="#">WISHLIST</a></li>
                             <li>
                                 <div class="dropdown-divider"></div>
@@ -85,426 +87,237 @@
         </div>
     </nav>
 
-    <section id="list-consult" class="bg-light">
+    <section id="list-consult" class="bg-light ">
         <div class="container pt-8 pb-16">
             <div class="text-center pt-5 pb-5">
-                <span class="badge rounded-pill text-uppercase fw-bold mb-8"
-                    style="background-color: #FFD8E6; font-size: 24pt; color: #000;">Beauty Masters: Expert
-                    Insights</span>
+                <span class="badge rounded-pill text-uppercase fw-bold mb-5"
+                    style="background-color: #FFD8E6; font-size: 24pt; color: #000;">Beauty Consultation: Get an Expert
+                    View</span>
                 <br>
                 <span class="badge rounded-pill text-uppercase" id="badge1">Discover the Secrets of Radiant Beauty with
                     Expert Insights on Skincare.</span>
             </div>
 
-            <div class="row">
-                <div class="container">
-                    <div class="c_consult-list-frame011">
-                        <div class="c_consult-list-frame012">
-                            <div class="c_consult-list-frame013">
-                                <div class="c_consult-list-frame014">
-                                    <img src="./assets/da07b74863a217676a9af6ee8875da91.png" alt="rectangle" width="163"
-                                        height="217" class="c_consult-list-rectangle1" />
+            <div class="container ps-5 ms-4">
+                <div class="row">
+                    <div class="col-md-7 mb-3">
+                        <div class="card mb-3 rounded-5">
+                            <div class="row g-0">
+                                <div class="col-md-2 pt-4 ps-2">
+                                    <img src="./img/doctor1.png" class="img-fluid " alt="delivery">
                                 </div>
-                                <div class="c_consult-list-frame015">
-                                    <div class="c_consult-list-frame016">
-                                        <div class="c_consult-list-text012">
-                                            <p class="c_consult-list-text013">dr. Handita Sp.D.V.E</p>
-                                        </div>
-                                        <div class="c_consult-list-text014">
-                                            <p class="c_consult-list-text015">
-                                                Pengalaman Praktik: 9 Tahun
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-text016">
-                                        <p class="c_consult-list-text017">STR : 247587257547</p>
-                                    </div>
-                                    <div class="c_consult-list-frame017">
-                                        <div class="c_consult-list-text018">
-                                            <p class="c_consult-list-text019">Spesialis kulit</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame018">
-                                        <div class="c_consult-list-frame019">
-                                            <img src="./assets/3ff0269ed086abf6daf472b5d70d4746.svg" alt="frame"
-                                                width="30" height="30" class="c_consult-list-frame020" />
-                                            <div class="c_consult-list-text020">
-                                                <p class="c_consult-list-text021">4.9</p>
-                                            </div>
-                                        </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase">dr. Handita Sp.D.V.E</h5>
+                                        <p class="card-title">Work Experience: 9 Years</p>
+                                        <p class="card-title text-secondary">STR :
+                                            247587257547</p>
+                                        <span class="badge rounded-pill mb-2" id="badge3">Dermatologist</span>
+                                        <p class="card-title"><img src="./img/love.png" alt="love"></p>
                                     </div>
                                 </div>
-                                <div class="c_consult-list-frame021">
-                                    <div class="c_consult-list-instance04">
-                                        <div class="c_consult-list-text022">
-                                            <p class="c_consult-list-text023">Set a Schedule</p>
-                                        </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <a class="btn fw-bold mt-24 ms-4" href="#" role="button"
+                                            style="color: #000; background-color:#FFD8E6 ;">SET AS SCHEDULE</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="c_consult-list-frame022">
-                                <img src="./assets/e29b94f752e0d7ae01fc1a9c1438ddc2.png" alt="rectangle" width="163"
-                                    height="217" class="c_consult-list-rectangle2" />
-                                <div class="c_consult-list-frame023">
-                                    <div class="c_consult-list-frame024">
-                                        <div class="c_consult-list-text024">
-                                            <p class="c_consult-list-text025">dr. ADIT Sp.D.V.E</p>
-                                        </div>
-                                        <div class="c_consult-list-text026">
-                                            <p class="c_consult-list-text027">
-                                                Pengalaman Praktik: 7 Tahun
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-text028">
-                                        <p class="c_consult-list-text029">STR : 247587257547</p>
-                                    </div>
-                                    <div class="c_consult-list-frame025">
-                                        <div class="c_consult-list-text030">
-                                            <p class="c_consult-list-text031">Spesialis kulit</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame026">
-                                        <div class="c_consult-list-frame027">
-                                            <img src="./assets/e9c6e5466da03eb38cbae870aab67f19.svg" alt="frame"
-                                                width="30" height="30" class="c_consult-list-frame028" />
-                                            <div class="c_consult-list-text032">
-                                                <p class="c_consult-list-text033">4.5</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="c_consult-list-frame029">
-                                    <div class="c_consult-list-instance05">
-                                        <div class="c_consult-list-text034">
-                                            <p class="c_consult-list-text035">Set a Schedule</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c_consult-list-frame030">
-                                <img src="./assets/64b9abc546cf1262f39b2a08cd8f6d3e.png" alt="rectangle" width="163"
-                                    height="217" class="c_consult-list-rectangle3" />
-                                <div class="c_consult-list-frame031">
-                                    <div class="c_consult-list-frame032">
-                                        <div class="c_consult-list-text036">
-                                            <p class="c_consult-list-text037">dr. Eva Sarasvati</p>
-                                        </div>
-                                        <div class="c_consult-list-text038">
-                                            <p class="c_consult-list-text039">
-                                                Pengalaman Praktik: 5 Tahun
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-text040">
-                                        <p class="c_consult-list-text041">STR : 243265762756</p>
-                                    </div>
-                                    <div class="c_consult-list-frame033">
-                                        <div class="c_consult-list-text042">
-                                            <p class="c_consult-list-text043">Spesialis kulit</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame034">
-                                        <div class="c_consult-list-frame035">
-                                            <img src="./assets/60b0099a022eee1b08fe8c7a056f5cb5.svg" alt="frame"
-                                                width="30" height="30" class="c_consult-list-frame036" />
-                                            <div class="c_consult-list-text044">
-                                                <p class="c_consult-list-text045">4.9</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="c_consult-list-frame037">
-                                    <div class="c_consult-list-instance06">
-                                        <div class="c_consult-list-text046">
-                                            <p class="c_consult-list-text047">Set a Schedule</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c_consult-list-frame038">
-                                <img src="./assets/e02faba273dd2a2c16c8a6d09a32a38b.png" alt="rectangle" width="163"
-                                    height="217" class="c_consult-list-rectangle4" />
-                                <div class="c_consult-list-frame039">
-                                    <div class="c_consult-list-frame040">
-                                        <div class="c_consult-list-text048">
-                                            <p class="c_consult-list-text049">dr. cokro Sp.D.V.E</p>
-                                        </div>
-                                        <div class="c_consult-list-text050">
-                                            <p class="c_consult-list-text051">
-                                                Pengalaman Praktik: 12 Tahun
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-text052">
-                                        <p class="c_consult-list-text053">STR : 247587257547</p>
-                                    </div>
-                                    <div class="c_consult-list-frame041">
-                                        <div class="c_consult-list-text054">
-                                            <p class="c_consult-list-text055">Spesialis kulit</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame042">
-                                        <div class="c_consult-list-frame043">
-                                            <img src="./assets/b45c9dc7579fe5dc2abc30496beb7cdd.svg" alt="frame"
-                                                width="30" height="30" class="c_consult-list-frame044" />
-                                            <div class="c_consult-list-text056">
-                                                <p class="c_consult-list-text057">4.9</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="c_consult-list-frame045">
-                                    <div class="c_consult-list-instance07">
-                                        <div class="c_consult-list-text058">
-                                            <p class="c_consult-list-text059">Set a Schedule</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="c_consult-list-frame046">
-                        <img
-                            src="./assets/89c1d652920374222a7907a0b9845c10.png"
-                            alt="rectangle"
-                            width="163"
-                            height="217"
-                            class="c_consult-list-rectangle5"
-                        />
-                        <div class="c_consult-list-frame047">
-                            <div class="c_consult-list-frame048">
-                            <div class="c_consult-list-text060">
-                                <p class="c_consult-list-text061">dr. Syafa Sp.D.V.E</p>
-                            </div>
-                            <div class="c_consult-list-text062">
-                                <p class="c_consult-list-text063">
-                                Pengalaman Praktik: 9 Tahun
-                                </p>
-                            </div>
-                            </div>
-                            <div class="c_consult-list-text064">
-                            <p class="c_consult-list-text065">STR : 247587257547</p>
-                            </div>
-                            <div class="c_consult-list-frame049">
-                            <div class="c_consult-list-text066">
-                                <p class="c_consult-list-text067">
-                                Spesialis Kulit dan Ahli Kecantikan
-                                </p>
-                            </div>
-                            </div>
-                            <div class="c_consult-list-frame050">
-                            <div class="c_consult-list-frame051">
-                                <img
-                                src="./assets/3cbc387a889cc95a36f09484aeb86d68.svg"
-                                alt="frame"
-                                width="30"
-                                height="30"
-                                class="c_consult-list-frame052"
-                                />
-                                <div class="c_consult-list-text068">
-                                <p class="c_consult-list-text069">4.9</p>
-                                </div>
-                            </div>
                             </div>
                         </div>
-                        <div class="c_consult-list-frame053">
-                            <div class="c_consult-list-instance08">
-                            <div class="c_consult-list-text070">
-                                <p class="c_consult-list-text071">Set a Schedule</p>
-                            </div>
+                        <div class="card mb-3 rounded-5">
+                            <div class="row g-0">
+                                <div class="col-md-2 pt-4 ps-2">
+                                    <img src="./img/doctor2.png" class="img-fluid " alt="delivery">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase">dr. Adit Sp.D.V.E</h5>
+                                        <p class="card-title">Work Experience: 7 Years</p>
+                                        <p class="card-title text-secondary">STR :
+                                            247587257547</p>
+                                        <span class="badge rounded-pill mb-2" id="badge3">Dermatologist</span>
+                                        <p class="card-title"><img src="./img/love.png" alt="love"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <a class="btn fw-bold mt-24 ms-4" href="#" role="button"
+                                            style="color: #000; background-color:#FFD8E6 ;">SET AS SCHEDULE</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
-                        <div class="c_consult-list-frame054">
-                        <img
-                            src="./assets/a8763b283645c5d91f1884c1a0fa250d.png"
-                            alt="rectangle"
-                            width="163"
-                            height="217"
-                            class="c_consult-list-rectangle6"
-                        />
-                        <div class="c_consult-list-frame055">
-                            <div class="c_consult-list-frame056">
-                            <div class="c_consult-list-text072">
-                                <p class="c_consult-list-text073">dr. Ryan Cakra Sp.D.V.E</p>
-                            </div>
-                            <div class="c_consult-list-text074">
-                                <p class="c_consult-list-text075">
-                                Pengalaman Praktik: 4 Tahun
-                                </p>
-                            </div>
-                            </div>
-                            <div class="c_consult-list-text076">
-                            <p class="c_consult-list-text077">STR : 247587257547</p>
-                            </div>
-                            <div class="c_consult-list-frame057">
-                            <div class="c_consult-list-text078">
-                                <p class="c_consult-list-text079">Spesialis kulit</p>
-                            </div>
-                            </div>
-                            <div class="c_consult-list-frame058">
-                            <div class="c_consult-list-frame059">
-                                <img
-                                src="./assets/87c327425c6b24090fa1464cfdb33a29.svg"
-                                alt="frame"
-                                width="30"
-                                height="30"
-                                class="c_consult-list-frame060"
-                                />
-                                <div class="c_consult-list-text080">
-                                <p class="c_consult-list-text081">4.9</p>
+                        <div class="card mb-3 rounded-5">
+                            <div class="row g-0">
+                                <div class="col-md-2 pt-4 ps-2">
+                                    <img src="./img/doctor3.png" class="img-fluid " alt="delivery">
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase">dr. Eva Sarasvati</h5>
+                                        <p class="card-title">Work Experience: 5 Years</p>
+                                        <p class="card-title text-secondary">STR :
+                                            247587257547</p>
+                                        <span class="badge rounded-pill mb-2" id="badge3">Dermatologist</span>
+                                        <p class="card-title"><img src="./img/love.png" alt="love"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <a class="btn fw-bold mt-24 ms-4" href="#" role="button"
+                                            style="color: #000; background-color:#FFD8E6 ;">SET AS SCHEDULE</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="c_consult-list-frame061">
-                            <div class="c_consult-list-instance09">
-                            <div class="c_consult-list-text082">
-                                <p class="c_consult-list-text083">Set a Schedule</p>
-                            </div>
+                        <div class="card mb-3 rounded-5">
+                            <div class="row g-0">
+                                <div class="col-md-2 pt-4 ps-2">
+                                    <img src="./img/doctor4.png" class="img-fluid" alt="delivery">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase">dr. Cokro Sp.D.V.E</h5>
+                                        <p class="card-title">Work Experience: 12 Years</p>
+                                        <p class="card-title text-secondary">STR :
+                                            247587257547</p>
+                                        <span class="badge rounded-pill mb-2" id="badge3">Dermatologist</span>
+                                        <p class="card-title"><img src="./img/love.png" alt="love"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body">
+                                        <a class="btn fw-bold mt-24 ms-4" href="#" role="button"
+                                            style="color: #000; background-color:#FFD8E6 ;">SET AS SCHEDULE</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div> -->
-                        </div>
-                        <div class="c_consult-list-frame062">
-                            <div class="c_consult-list-text084">
-                                <p class="c_consult-list-text085">Category</p>
+                    </div>
+
+
+                    <div class="col-md-5 mb-3">
+                        <div class="card mb-4 mx-3 p-2">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">CATEGORY</h4>
                             </div>
-                            <div class="c_consult-list-frame063">
-                                <div class="c_consult-list-text086">
-                                    <p class="c_consult-list-text087">Schedule</p>
-                                </div>
-                                <div class="c_consult-list-frame064">
-                                    <div class="c_consult-list-frame065">
-                                        <div class="c_consult-list-text088">
-                                            <p class="c_consult-list-text089">All Schedules</p>
+                            <div class="card-body">
+                                <h5 class="card-title mb-3 fw-bold">Schedule</h5>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="width: 6rem; height: 100px; background-color: #E9A2B0; color: #000000;">
+                                            <p class="card-title fw-bold mt-4">ALL Schedule</p>
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-instance10">
-                                        <div class="c_consult-list-text090">
-                                            <p class="c_consult-list-text091">Thu,</p>
-                                            <p class="c_consult-list-text092">14 Mar</p>
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="width: 5rem; height: 100px; background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-4">Thu, 14 Mar</p>
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-instance11">
-                                        <div class="c_consult-list-text093">
-                                            <p class="c_consult-list-text094">Thu,</p>
-                                            <p class="c_consult-list-text095">15 Mar</p>
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="width: 5rem; height: 100px; background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-4">Fri, 15 Mar</p>
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-instance12">
-                                        <div class="c_consult-list-text096">
-                                            <p class="c_consult-list-text097">Thu,</p>
-                                            <p class="c_consult-list-text098">16 Mar</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-instance13">
-                                        <div class="c_consult-list-text099">
-                                            <p class="c_consult-list-text100">Thu,</p>
-                                            <p class="c_consult-list-text101">17 Mar</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-instance14">
-                                        <div class="c_consult-list-text102">
-                                            <p class="c_consult-list-text103">Thu,</p>
-                                            <p class="c_consult-list-text104">18 Mar</p>
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="width: 5rem; height: 100px; background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-4">Sat, 16 Mar</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="c_consult-list-frame066">
-                                <div class="c_consult-list-text105">
-                                    <p class="c_consult-list-text106">Session</p>
-                                </div>
-                                <div class="c_consult-list-frame067">
-                                    <div class="c_consult-list-frame068">
-                                        <div class="c_consult-list-text107">
-                                            <p class="c_consult-list-text108">Offline</p>
+                            <div class="card-body">
+                                <h5 class="card-title mb-3 fw-bold">Session</h5>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">Offline</p>
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame069">
-                                        <div class="c_consult-list-text109">
-                                            <p class="c_consult-list-text110">Online</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c_consult-list-frame070">
-                                <div class="c_consult-list-text111">
-                                    <p class="c_consult-list-text112">Work Experience</p>
-                                </div>
-                                <div class="c_consult-list-frame071">
-                                    <div class="c_consult-list-frame072">
-                                        <div class="c_consult-list-text113">
-                                            <p class="c_consult-list-text114">&lt; 4 tahun</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame073">
-                                        <div class="c_consult-list-text115">
-                                            <p class="c_consult-list-text116">4-6 Tahun</p>
-                                        </div>
-                                    </div>
-                                    <div class="c_consult-list-frame074">
-                                        <div class="c_consult-list-text117">
-                                            <p class="c_consult-list-text118">&gt; 6 Tahun</p>
+                                    <div class="col-md-3">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">Online</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="c_consult-list-frame075">
-                                <div class="c_consult-list-text119">
-                                    <p class="c_consult-list-text120">Price</p>
-                                </div>
-                                <div class="c_consult-list-frame076">
-                                    <div class="c_consult-list-frame077">
-                                        <div class="c_consult-list-text121">
-                                            <p class="c_consult-list-text122">&lt; IDR 50.000</p>
+                            <div class="card-body">
+                                <h5 class="card-title mb-3 fw-bold">Practical Experience</h5>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">
+                                                < 4 Years</p>
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame078">
-                                        <div class="c_consult-list-text123">
-                                            <p class="c_consult-list-text124">&gt; IDR 50.000</p>
+                                    <div class="col-md-4">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">
+                                                4-6 Years</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">
+                                                > 6 Years</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="c_consult-list-frame079">
-                                <div class="c_consult-list-text125">
-                                    <p class="c_consult-list-text126">Rating</p>
+                            <div class="card-body">
+                                <h5 class="card-title mb-3 fw-bold">Price</h5>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">
+                                                < IDR 50.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card text-center"
+                                            style="background-color: #EEEEEE; color: #000000;">
+                                            <p class="card-title fw-bold mt-1 rounded-5">
+                                                > IDR 50.000</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="c_consult-list-frame080">
-                                    <div class="c_consult-list-frame081">
-                                        <img src="./assets/f70272bf344c698be4007c368c58d010.svg" alt="frame" width="25"
-                                            height="25" class="c_consult-list-frame082" />
-                                        <div class="c_consult-list-text127">
-                                            <p class="c_consult-list-text128">1.0</p>
+                            </div>
+                            <div class="card-body mb-4">
+                                <h5 class="card-title mb-3 fw-bold">Rating</h5>
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="card-transparent text-center">
+                                            <img src="./img/rating1.png" alt="rating1">
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame083">
-                                        <img src="./assets/664dcfe8dad478b83583b962c0475bb9.svg" alt="frame" width="25"
-                                            height="25" class="c_consult-list-frame084" />
-                                        <div class="c_consult-list-text129">
-                                            <p class="c_consult-list-text130">2.0</p>
+                                    <div class="col-md-3">
+                                        <div class="card-transparent text-center">
+                                            <img src="./img/rating2.png" alt="rating2">
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame085">
-                                        <img src="./assets/4d5e63c355c8ddd9cf2fc93ed260f089.svg" alt="frame" width="25"
-                                            height="25" class="c_consult-list-frame086" />
-                                        <div class="c_consult-list-text131">
-                                            <p class="c_consult-list-text132">3.0</p>
+                                    <div class="col-md-3">
+                                        <div class="card-transparent text-center">
+                                            <img src="./img/rating3.png" alt="rating3">
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame087">
-                                        <img src="./assets/23d31d75340da5413bb5f84ff4a7ceeb.svg" alt="frame" width="25"
-                                            height="25" class="c_consult-list-frame088" />
-                                        <div class="c_consult-list-text133">
-                                            <p class="c_consult-list-text134">4.0</p>
+                                    <div class="col-md-3">
+                                        <div class="card-transparent text-center">
+                                            <img src="./img/rating4.png" alt="rating4">
                                         </div>
                                     </div>
-                                    <div class="c_consult-list-frame089">
-                                        <img src="./assets/e239db8982b8bcf03cd1922b3f8907c0.svg" alt="frame" width="25"
-                                            height="25" class="c_consult-list-frame090" />
-                                        <div class="c_consult-list-text135">
-                                            <p class="c_consult-list-text136">5.0</p>
+                                    <div class="col-md-3">
+                                        <div class="card-transparent text-center">
+                                            <img src="./img/rating5.png" alt="rating5">
                                         </div>
                                     </div>
                                 </div>
@@ -515,6 +328,8 @@
             </div>
     </section>
 
+
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #E9A2B0;">
         <!-- Section: Links  -->
@@ -523,7 +338,7 @@
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 mx-auto mb-4 pt-24 border-end">
+                    <div class="col-md-3 col-lg-4 mx-auto mb-4 pt-16 border-end">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
                             <img src="./img/logo.png" alt="logo">
@@ -534,9 +349,9 @@
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 mx-auto mb-4 border-end">
                         <!-- Links -->
-                        <h5 class="text-uppercase fw-bold mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
                             Site Map
-                        </h5>
+                        </h6>
                         <p>
                             <a href="#!" class="text-reset" style="text-decoration: none;">Home</a>
                         </p>
@@ -593,7 +408,7 @@
         <!-- Section: Links  -->
 
         <!-- Copyright -->
-        <div class="text-center p-4 fw-bold border-top">
+        <div class="text-center p-4 fw-bold border-top" style="background-color: #E9A2B0;">
             COPYRIGHT © 2024 Nawasena. Made with ❤️ by Nawasena Team
         </div>
         <!-- Copyright -->
@@ -603,6 +418,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

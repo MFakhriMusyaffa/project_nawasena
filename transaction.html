@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transaction Product</title>
+
+    <!-- icon-website -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+    <link href="./c_consult-list.css" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="./style.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Icon Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home"><img src="./img/logo-nav.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Tautan di bagian tengah -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-uppercase ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./project.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./list_product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./list_article.html">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./list_consult.html"
+                            style="color: #b35667; font-weight: bold;">Chat</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#search"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 12 12">
+                                <path fill="currentColor"
+                                    d="M5 1a4 4 0 1 0 2.248 7.31l2.472 2.47a.75.75 0 1 0 1.06-1.06L8.31 7.248A4 4 0 0 0 5 1M2.5 5a2.5 2.5 0 1 1 5 0a2.5 2.5 0 0 1-5 0" />
+                            </svg></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle-transparant" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5 -7 24 24">
+                                <path fill="currentColor"
+                                    d="M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2m7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2M1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end text-end">
+                            <li><a class="dropdown-item" href="#">PROFILE</a></li>
+                            <li><a class="dropdown-item" href="#">MY CART</a></li>
+                            <li><a class="dropdown-item" href="./chat_consult.html">CHAT HISTORY</a></li>
+                            <li><a class="dropdown-item" href="#">WISHLIST</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="./login_page.html" style="color: #FF0000;">LOG OUT</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="list-consult" class="bg-light ">
+        <div class="container pt-8 pb-16">
+
+            <div class="container ps-5 ms-4">
+                <div class="row">
+                    <div class="col-md-7 mb-3">
+                        <div class="card mb-3 p-2">
+                            <table class="table">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Quantity</th>
+                                        <th scope="col">Total Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="card-transparent mb-3" style="max-width: 540px;">
+                                                <div class="row g-0">
+                                                    <div class="col-md-4">
+                                                        <img src="./img/product_transaction.png"
+                                                            class="img-fluid rounded-start" alt="transaction">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title fw-bold">Dior Addict Lip Tint</h5>
+                                                            <p class="card-text">421 Natural Tea</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </th>
+                                        <td>IDR 635.000</td>
+                                        <td>
+                                            <div class="input-group quantity mb-3">
+                                                <button type="button" class="btn btn-outline-secondary btn-number"
+                                                    data-type="minus" data-field="quantity">
+                                                    <i class="fas fa-chevron-left"></i>
+                                                </button>
+                                                <input type="text" name="quantity" class="form-control input-number"
+                                                    value="1" min="1" style="width: 20px;">
+                                                <button type="button" class="btn btn-outline-secondary btn-number"
+                                                    data-type="plus" data-field="quantity">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>IDR 635.000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-2">
+                                    <img src="./img/truck.png" class="img-fluid mx-auto" alt="delivery">
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FREE* STANDARD DELIVERY</h5>
+                                        <p class="card-text">Faster delivery options available to most countries</p>
+                                        <p class="card-text"><small class="text-body-secondary">More info...</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 mb-3">
+                        <div class="card mb-4 mx-3 p-2">
+                            <div class="card-body">
+                                <h5 class="card-title">Shipping Address</h5>
+                            </div>
+                            <div class="card-body">
+                                <input class="form-control mb-3" type="text" placeholder="Name" aria-label="Name">
+                                <input class="form-control mb-3" type="text" placeholder="Address" aria-label="Address">
+                                <input class="form-control mb-3" type="text" placeholder="City" aria-label="City">
+                                <div class="row g-3 mb-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Province"
+                                            aria-label="Province">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" class="form-control" placeholder="Postal Code"
+                                            aria-label="Postal Code">
+                                    </div>
+                                </div>
+                                <input class="form-control mb-4" type="text" placeholder="Landmark (e.g. Yellow Gate)"
+                                    aria-label="Landmark">
+                                <hr>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Standart Delivery <p>Free</p>
+                                    </option>
+                                    <option value="2">1 Day Arrive Delivery <p>IDR 15.000</p>
+                                    </option>
+                                    <option value="3">Sameday Delivery <p>IDR 30.000</p>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="card-body mb-2">
+                                <h5 class="card-title mb-3">Payment</h5>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card" style="width: 4rem;">
+                                            <img src="./img/icon1.png" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card" style="width: 4rem;">
+                                            <img src="./img/icon2.png" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card" style="width: 4rem;">
+                                            <img src="./img/icon3.png" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card" style="width: 4rem;">
+                                            <img src="./img/icon4.png" class="card-img-top" alt="...">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="card-body mb-2">
+                                <h5 class="card-title mb-3">Summary</h5>
+                                <p class="card-text">Subtotal : <b>IDR 635.000,00</b></p>
+                                <p class="card-text">Delivery & Handling : <b>FREE</b></p>
+                                <hr>
+                            </div>
+                            <div class="card-body mb-2">
+                                <h5 class="card-title mb-3">Total : <b>IDR 635.000,00</b></h5>
+                            </div>
+                            <a href="#" class="btn text-center mb-4 ms-5 me-5 fw-bold"
+                                style="background-color: #FFD8E6;">CHECKOUT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #E9A2B0;">
+        <!-- Section: Links  -->
+        <section class="footer">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 mx-auto mb-4 pt-16 border-end">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="./img/logo.png" alt="logo">
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 mx-auto mb-4 border-end">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Site Map
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Consultation</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Store</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Article</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">About Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset" style="text-decoration: none;">Privacy & Policy</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 mx-auto mb-md-0 mb-4 pt-12">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-center">Contact</h6>
+                        <div class="d-flex justify-content-center">
+                            <i class="fab fa-instagram me-3 fs-5"></i>
+                            <i class="fab fa-facebook me-3 fs-5"></i>
+                            <i class="fab fa-x-twitter me-3 fs-5"></i>
+                            <i class="fas fa-envelope me-3 fs-5"></i>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 fw-bold border-top" style="background-color: #E9A2B0;">
+            COPYRIGHT © 2024 Nawasena. Made with ❤️ by Nawasena Team
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

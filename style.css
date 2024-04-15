@@ -24,10 +24,9 @@ body{
 
 #badge1{
   background-color: #e1e1e1;
-  font-size: 20px; 
+  font-size: 16px; 
   font-weight: bold;
   color: #b35667;
-  margin: auto;
 } 
 
 #badge2{
@@ -36,6 +35,11 @@ body{
   font-weight: bold;
 }
 
+#badge3{
+  background-color: #FFD8E6; 
+  font-weight: bold;
+  color: #000000;
+}
 .section-consul {
   background-color: #BD939A;
   background-position: top;
@@ -115,13 +119,56 @@ body{
   border-radius: 48px;
 }
 
-
+.badge-dot {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-left: 2.9rem;
+  margin-top: -.75rem;
+  }
 
 .footer {
   background-color: #E9A2B0;
   padding: 20px 0;
   font-style: bold;
 }
+
+.dot{
+  height: 12px;
+  width: 12px;
+  background-color: #28a745; /* Warna dot, disini menggunakan warna hijau */
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -17px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  left: 33px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  z-index: 1;
+}
+
+.dot1{
+  height: 12px;
+  width: 12px;
+  background-color: #28a745; /* Warna dot, disini menggunakan warna hijau */
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -17px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  left: 43px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  z-index: 1;
+}
+
+.dot2{
+  height: 12px;
+  width: 12px;
+  background-color: #FF0000; /* Warna dot, disini menggunakan warna hijau */
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -17px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  left: 43px; /* Sesuaikan posisi dot sesuai kebutuhan */
+  z-index: 1;
+}
+  
 
 /* login page */
 
@@ -138,3 +185,5 @@ body{
   height: 100%;
   }
   } */
+
+  /* transaction */
